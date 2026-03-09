@@ -1,0 +1,871 @@
+
+==============================
+ EVALUATION RESULTS 
+==============================
+Total Queries:   20
+Average Latency: 0.515 seconds
+P95 Latency:     0.701 seconds
+Top-1 Accuracy:  70.0%
+Top-3 Accuracy:  90.0%
+
+
+--- Query 1 ---
+Question: What is the RERA registration number for the Max Towers project?
+Latency: 0.7349 seconds
+Target Keyword: 'upreraprj12475' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967430,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "so warranted by the circumstances/directions by competent authority. The project 'Max Towers' is registered with the UPRERA with registration no. UPRERAPRJ12475. Please refer to project details on the website of UPRERA www.up-rera.in. OWNERSHIP We"
+    },
+    {
+      "chunk_id": 4294967431,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "website of UPRERA www.up-rera.in. OWNERSHIP We would love to see you soon. For a visit to our experience centre and the site, contact us at +91- 95553 95222 info@maxestates.in www.maxtowers.com RERA registration: UPRERAPRJ12475 71 70 Max Towers Pvt."
+    },
+    {
+      "chunk_id": 4294967432,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "UPRERAPRJ12475 71 70 Max Towers Pvt. Ltd.(previously known as Wise Zone Builders Pvt. Ltd.),having its Registered office Address at : Max Towers, L-12, C- 001/A/1, Sector- 16B NOIDA UP 201301, CIN : U70109UP2016PTC087374."
+    },
+    {
+      "chunk_id": 4294967355,
+      "pdf_id": 1,
+      "page_no": 14,
+      "text": "Above Entrance to Max Towers Facing page The Box at Max Towers 29 28"
+    },
+    {
+      "chunk_id": 4294967396,
+      "pdf_id": 1,
+      "page_no": 30,
+      "text": "concerns Max Towers performs for its residents to help them work better. The Max Group has a history of superior hospitality. A dedicated team of experts from Max Estates will ensure all operational activities perform for our occupants at Max"
+    }
+  ],
+  "vector_db_time": 0.1662302017211914
+}
+==================================================
+
+--- Query 2 ---
+Question: Which two global architecture firms collaborated on the design of Max Towers?
+Latency: 0.5320 seconds
+Target Keyword: 'gensler' | Found at Rank: Not Found in top chunks
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967302,
+      "pdf_id": 1,
+      "page_no": 2,
+      "text": "company culture through shared experiences. Our intention with Max Towers is to blend thoughtful design and superior hospitality to create an environment, which integrates work and life, nurturing a more productive, healthier and happier community."
+    },
+    {
+      "chunk_id": 4294967305,
+      "pdf_id": 1,
+      "page_no": 3,
+      "text": "Max Towers is an attempt to provide you with \u2013 an agile workplace that responds to work expansion and contraction with ease. \u2013 collaborative spaces like co-working zones and a flexible multi-use dining area that allow you to retain your space"
+    },
+    {
+      "chunk_id": 4294967312,
+      "pdf_id": 1,
+      "page_no": 5,
+      "text": "We view the workplace as a strategic asset and a catalyst for cultural change. Max Towers is a next-generation office building: providing an on-demand, community-enabled, and experience-driven work environment. Our goal is to enhance the quality of"
+    },
+    {
+      "chunk_id": 4294967337,
+      "pdf_id": 1,
+      "page_no": 8,
+      "text": "Our view of design goes beyond architectural flourishes. Every design detail at Max Towers is as functional as it is aesthetically pleasing. The fac\u0327ade\u2019s unique vertical-fin shading system responds, through subtle gradation, to the region\u2019s climatic"
+    },
+    {
+      "chunk_id": 4294967315,
+      "pdf_id": 1,
+      "page_no": 5,
+      "text": "and companies, providing them with the best of health and wellness along with channels of relaxation and inspiration. At Max Towers, the perfect integration of work and life isn\u2019t just achievable, it\u2019s convenient. Merging what your mind wants with"
+    }
+  ],
+  "vector_db_time": 0.25871849060058594
+}
+==================================================
+
+--- Query 3 ---
+Question: What green building certification has the Max Towers building achieved?
+Latency: 0.5286 seconds
+Target Keyword: 'leed platinum' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967349,
+      "pdf_id": 1,
+      "page_no": 12,
+      "text": "Max Towers is LEED Platinum Certified. Max Towers is a thought leader in sustainability and aims to minimise its ecological footprint. To do so is important to us because we feel a certain responsibility towards our planet, and we invite you to share"
+    },
+    {
+      "chunk_id": 4294967432,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "UPRERAPRJ12475 71 70 Max Towers Pvt. Ltd.(previously known as Wise Zone Builders Pvt. Ltd.),having its Registered office Address at : Max Towers, L-12, C- 001/A/1, Sector- 16B NOIDA UP 201301, CIN : U70109UP2016PTC087374."
+    },
+    {
+      "chunk_id": 4294967302,
+      "pdf_id": 1,
+      "page_no": 2,
+      "text": "company culture through shared experiences. Our intention with Max Towers is to blend thoughtful design and superior hospitality to create an environment, which integrates work and life, nurturing a more productive, healthier and happier community."
+    },
+    {
+      "chunk_id": 4294967430,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "so warranted by the circumstances/directions by competent authority. The project 'Max Towers' is registered with the UPRERA with registration no. UPRERAPRJ12475. Please refer to project details on the website of UPRERA www.up-rera.in. OWNERSHIP We"
+    },
+    {
+      "chunk_id": 4294967396,
+      "pdf_id": 1,
+      "page_no": 30,
+      "text": "concerns Max Towers performs for its residents to help them work better. The Max Group has a history of superior hospitality. A dedicated team of experts from Max Estates will ensure all operational activities perform for our occupants at Max"
+    }
+  ],
+  "vector_db_time": 0.16893362998962402
+}
+==================================================
+
+--- Query 4 ---
+Question: What is the total super built-up area of the building?
+Latency: 0.4960 seconds
+Target Keyword: '559,891' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967336,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "metres (559,891 square feet) 19 office floors 4 amenity floors 3 level basement car parking 4.3 m minimum for all office floors 2,369 square metres (25,500 square feet) 1:700 square feet LEED Platinum View of Max Towers from the DND Flyway"
+    },
+    {
+      "chunk_id": 4294967428,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "DISCLAIMER This brochure is an artistic representation of the building / project and is purely conceptual. Images used for spaces at Max Towers are artists\u2019 impressions for representational purposes only. This is not a legal offering/offer to sale."
+    },
+    {
+      "chunk_id": 4294967337,
+      "pdf_id": 1,
+      "page_no": 8,
+      "text": "Our view of design goes beyond architectural flourishes. Every design detail at Max Towers is as functional as it is aesthetically pleasing. The fac\u0327ade\u2019s unique vertical-fin shading system responds, through subtle gradation, to the region\u2019s climatic"
+    },
+    {
+      "chunk_id": 4294967347,
+      "pdf_id": 1,
+      "page_no": 10,
+      "text": "air you breathe inside Max Towers, everything you experience is designed to enhance the effects of nature on creativity, productivity and wellness. View towards courtyard on the 20th floor 21"
+    },
+    {
+      "chunk_id": 4294967432,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "UPRERAPRJ12475 71 70 Max Towers Pvt. Ltd.(previously known as Wise Zone Builders Pvt. Ltd.),having its Registered office Address at : Max Towers, L-12, C- 001/A/1, Sector- 16B NOIDA UP 201301, CIN : U70109UP2016PTC087374."
+    }
+  ],
+  "vector_db_time": 0.20047354698181152
+}
+==================================================
+
+--- Query 5 ---
+Question: How many dedicated office floors does the building contain?
+Latency: 0.4369 seconds
+Target Keyword: '19' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967336,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "metres (559,891 square feet) 19 office floors 4 amenity floors 3 level basement car parking 4.3 m minimum for all office floors 2,369 square metres (25,500 square feet) 1:700 square feet LEED Platinum View of Max Towers from the DND Flyway"
+    },
+    {
+      "chunk_id": 4294967364,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "grid, our spaces are agile, empowering you to build your workplace the way you want. Above and facing page Offices at Max Towers 35 34"
+    },
+    {
+      "chunk_id": 4294967335,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "the metro station and minutes away from Delhi\u2019s Central Business District. Super built-up area Number of floors Floor-to-floor height Typical office floor plate size Parking Green rating 52,016 square metres (559,891 square feet) 19 office floors 4"
+    },
+    {
+      "chunk_id": 4294967362,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "Tenant Floors Max Towers provides you with a state-of-the-art blank slate workspace that you can fully customise to suit your needs. Designed such that 90% of regular occupied space gets direct line-of-sight to the outside environment, the average"
+    },
+    {
+      "chunk_id": 4294967324,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Floor effi ciency @60% Optimum leasing depth allows employees even in the centre of the building to enjoy natural light and have a view of the outside Greater versatility in fl oor plan layouts LEED Platinum Fac\u0327ade features Common amenities"
+    }
+  ],
+  "vector_db_time": 0.16539263725280762
+}
+==================================================
+
+--- Query 6 ---
+Question: What is the minimum floor-to-floor ceiling height for all the office floors?
+Latency: 0.4591 seconds
+Target Keyword: '4.3' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967363,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "to the outside environment, the average ceiling height on our tenant floor plates is 4.3 metres. Combined with optimum column spacing for efficient floor planning, raised flooring and a 10.5 meter planning grid, our spaces are agile, empowering you"
+    },
+    {
+      "chunk_id": 4294967336,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "metres (559,891 square feet) 19 office floors 4 amenity floors 3 level basement car parking 4.3 m minimum for all office floors 2,369 square metres (25,500 square feet) 1:700 square feet LEED Platinum View of Max Towers from the DND Flyway"
+    },
+    {
+      "chunk_id": 4294967362,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "Tenant Floors Max Towers provides you with a state-of-the-art blank slate workspace that you can fully customise to suit your needs. Designed such that 90% of regular occupied space gets direct line-of-sight to the outside environment, the average"
+    },
+    {
+      "chunk_id": 4294967335,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "the metro station and minutes away from Delhi\u2019s Central Business District. Super built-up area Number of floors Floor-to-floor height Typical office floor plate size Parking Green rating 52,016 square metres (559,891 square feet) 19 office floors 4"
+    },
+    {
+      "chunk_id": 4294967318,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "backup Ceiling height Back-of-house facilities 1:700 square feet Designed for Seismic Zone-V 23 \u030aC dry-bulb temperature \u00b11 \u030aC in offi ces 30-60% relative humidity Chiller system delivering 6.2 co-effi cient of performance (higher cooling per unit of"
+    }
+  ],
+  "vector_db_time": 0.16820216178894043
+}
+==================================================
+
+--- Query 7 ---
+Question: What is the typical size of an office floor plate?
+Latency: 0.5624 seconds
+Target Keyword: '25,500' | Found at Rank: 3
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967363,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "to the outside environment, the average ceiling height on our tenant floor plates is 4.3 metres. Combined with optimum column spacing for efficient floor planning, raised flooring and a 10.5 meter planning grid, our spaces are agile, empowering you"
+    },
+    {
+      "chunk_id": 4294967335,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "the metro station and minutes away from Delhi\u2019s Central Business District. Super built-up area Number of floors Floor-to-floor height Typical office floor plate size Parking Green rating 52,016 square metres (559,891 square feet) 19 office floors 4"
+    },
+    {
+      "chunk_id": 4294967336,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "metres (559,891 square feet) 19 office floors 4 amenity floors 3 level basement car parking 4.3 m minimum for all office floors 2,369 square metres (25,500 square feet) 1:700 square feet LEED Platinum View of Max Towers from the DND Flyway"
+    },
+    {
+      "chunk_id": 4294967364,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "grid, our spaces are agile, empowering you to build your workplace the way you want. Above and facing page Offices at Max Towers 35 34"
+    },
+    {
+      "chunk_id": 4294967362,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "Tenant Floors Max Towers provides you with a state-of-the-art blank slate workspace that you can fully customise to suit your needs. Designed such that 90% of regular occupied space gets direct line-of-sight to the outside environment, the average"
+    }
+  ],
+  "vector_db_time": 0.18174147605895996
+}
+==================================================
+
+--- Query 8 ---
+Question: How many seats are available in the building's in-house auditorium?
+Latency: 0.4632 seconds
+Target Keyword: '130' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967385,
+      "pdf_id": 1,
+      "page_no": 24,
+      "text": "130-seater raked auditorium with state-of-the-art presentation capabilities. From townhalls to lecture series to investor meetings to theatre, our auditorium is well-suited for work or play. View of auditorium 49 48"
+    },
+    {
+      "chunk_id": 4294967384,
+      "pdf_id": 1,
+      "page_no": 24,
+      "text": "and inspire communities, inviting individuals and their families to form deeper, meaningful and long-lasting relationships through sports, art, culture, technology and networking. Auditorium A 130-seater raked auditorium with state-of-the-art"
+    },
+    {
+      "chunk_id": 4294967361,
+      "pdf_id": 1,
+      "page_no": 16,
+      "text": "Cafe\u0301 Elevator lobby Landscaped courtyard Pre-function Auditorium The Box The Box lobby Level G3 33 32"
+    },
+    {
+      "chunk_id": 4294967357,
+      "pdf_id": 1,
+      "page_no": 15,
+      "text": "employees even in the centre of the building to enjoy natural light and a view of the natural world. The entrance lobby is served by a reception, administration offices, concierge, seating and waiting areas, and a deli and coffee shop. Above and"
+    },
+    {
+      "chunk_id": 4294967428,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "DISCLAIMER This brochure is an artistic representation of the building / project and is purely conceptual. Images used for spaces at Max Towers are artists\u2019 impressions for representational purposes only. This is not a legal offering/offer to sale."
+    }
+  ],
+  "vector_db_time": 0.17331981658935547
+}
+==================================================
+
+--- Query 9 ---
+Question: What is the capacity of the overhead water tank located on the roof?
+Latency: 0.4671 seconds
+Target Keyword: '35,000' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967331,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Three 1,010 kVA generators to meet base building requirements, with day tank capacity of 990 litres each 35,000 litre overhead water tank at roof of building 20,000 litre fi re reserve tank at roof of building 75,000 litre domestic raw water tank at"
+    },
+    {
+      "chunk_id": 4294967406,
+      "pdf_id": 1,
+      "page_no": 31,
+      "text": "75,000 litre domestic raw water tank at level G1 30,000 litre flushing water tank at level G1 Fire Protection Fire-fighting includes both a hydrant system and an automatic sprinkler system, in conformance with the National Building Code Smoke"
+    },
+    {
+      "chunk_id": 4294967332,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "building 75,000 litre domestic raw water tank at level G1 30,000 litre fl ushing water tank at level G1 Zoning Tenant workspace Fitness centre Swimming pool Sports zone Chiropractor and daycare Landscaped courtyard Entrance lobby The Box Cafe\u0301"
+    },
+    {
+      "chunk_id": 4294967405,
+      "pdf_id": 1,
+      "page_no": 31,
+      "text": "Elevator system programmed to reduce wait time on any floor Low noise and high-end finishes improve experience Water 35,000 litre overhead water tank at roof 20,000 litre fire reserve tank at roof 75,000 litre domestic raw water tank at level G1"
+    },
+    {
+      "chunk_id": 4294967325,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "LEED Platinum Fac\u0327ade features Common amenities Technology off ering Security Electrical Water Low-E, high performance glass with low refl ectance Fully unitised aluminium curtain wall panels Solar heat gain coeffi cient of 0.25 Glass units are"
+    }
+  ],
+  "vector_db_time": 0.17009806632995605
+}
+==================================================
+
+--- Query 10 ---
+Question: Which metro station is located within walking distance from the property?
+Latency: 0.4953 seconds
+Target Keyword: 'sector 16' | Found at Rank: 3
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967335,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "the metro station and minutes away from Delhi\u2019s Central Business District. Super built-up area Number of floors Floor-to-floor height Typical office floor plate size Parking Green rating 52,016 square metres (559,891 square feet) 19 office floors 4"
+    },
+    {
+      "chunk_id": 4294967358,
+      "pdf_id": 1,
+      "page_no": 15,
+      "text": "areas, and a deli and coffee shop. Above and facing page Entrance lobby at Max Towers 30"
+    },
+    {
+      "chunk_id": 4294967334,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "Design Nothing about this environment or experience is accidental. At a glance Located in Sector 16B, Noida, Max Towers commands direct access from the DND Flyway. Max Towers is walking distance from the metro station and minutes away from Delhi\u2019s"
+    },
+    {
+      "chunk_id": 4294967412,
+      "pdf_id": 1,
+      "page_no": 32,
+      "text": "Facing page Aerial view of Max Towers and Delhi One Sector 16 Metro Station 0.7 km 5 min Connaught Place 15 km 25 min IGI Airport 25 km 45 min Saket 18 km 30 min Gurgaon 32 km 55 min Jasola 12 km 20 min Nehru Place 11 km 20 min New Delhi Railway"
+    },
+    {
+      "chunk_id": 4294967413,
+      "pdf_id": 1,
+      "page_no": 32,
+      "text": "20 min Nehru Place 11 km 20 min New Delhi Railway Station 15.5 km 30 min India Gate 13.5 km 20 min Noida City Centre 6 km 10 min 64"
+    }
+  ],
+  "vector_db_time": 0.16596317291259766
+}
+==================================================
+
+--- Query 11 ---
+Question: What is the solar heat gain coefficient of the glass used in the building's facade?
+Latency: 0.5216 seconds
+Target Keyword: '0.25' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967341,
+      "pdf_id": 1,
+      "page_no": 8,
+      "text": "coating Solar heat gain coefficient of 0.25 Cuts visible light transmission by 34% Detail of fac\u0327ade at Max Towers 16"
+    },
+    {
+      "chunk_id": 4294967340,
+      "pdf_id": 1,
+      "page_no": 8,
+      "text": "glass with low reflectance 30 mm thick insulated glass units, consisting of \u2013 8 mm thick clear heat-strengthened outer lite \u2013 16 mm air space \u2013 6 mm thick clear fully-tempered inner lite with a Low-E coating Solar heat gain coefficient of 0.25 Cuts"
+    },
+    {
+      "chunk_id": 4294967326,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "heat gain coeffi cient of 0.25 Glass units are insulated glass units, 30 mm thick consisting of an 8 mm thick clear heat- strengthened outer lite, 16 mm air space and a 6 mm thick clear fully-tempered inner lite with a Low-E coating Landscaped"
+    },
+    {
+      "chunk_id": 4294967325,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "LEED Platinum Fac\u0327ade features Common amenities Technology off ering Security Electrical Water Low-E, high performance glass with low refl ectance Fully unitised aluminium curtain wall panels Solar heat gain coeffi cient of 0.25 Glass units are"
+    },
+    {
+      "chunk_id": 4294967339,
+      "pdf_id": 1,
+      "page_no": 8,
+      "text": "light, delivering it in peculiar and interesting compositions to every space while shielding them from the heat outside, lowering the overall costs of energy consumption for tenants. Low-E, high performance glass with low reflectance 30 mm thick"
+    }
+  ],
+  "vector_db_time": 0.16807246208190918
+}
+==================================================
+
+--- Query 12 ---
+Question: What is the designated parking ratio provided for the occupants?
+Latency: 0.6133 seconds
+Target Keyword: '1:700' | Found at Rank: Not Found in top chunks
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967335,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "the metro station and minutes away from Delhi\u2019s Central Business District. Super built-up area Number of floors Floor-to-floor height Typical office floor plate size Parking Green rating 52,016 square metres (559,891 square feet) 19 office floors 4"
+    },
+    {
+      "chunk_id": 4294967398,
+      "pdf_id": 1,
+      "page_no": 30,
+      "text": "\u2013 Guided smart parking management system \u2013 F&B offerings Access control High-speed internet services Digital information systems at strategic locations like the cafeteria and entrance lobby Computerised, automated building management system Guided"
+    },
+    {
+      "chunk_id": 4294967397,
+      "pdf_id": 1,
+      "page_no": 30,
+      "text": "activities perform for our occupants at Max Towers. Facilities Web / app based facility management \u2013 Facility booking management \u2013 Tenant billing system \u2013 Visitor management \u2013 Help desk management \u2013 Guided smart parking management system \u2013 F&B"
+    },
+    {
+      "chunk_id": 4294967323,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Esteva Arquitectura, Spain Co-Principal Architect 52,016 square metres (559,891 square feet) 19 offi ce fl oors 4 amenity fl oors 3 level basement car parking 2,369 square metres (25,500 square feet) Floor effi ciency @60% Optimum leasing depth"
+    },
+    {
+      "chunk_id": 4294967333,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Landscaped courtyard Entrance lobby The Box Cafe\u0301 Auditorium Landscaped courtyard The Box Parking Level G3 Levels L1-L2 Levels L4-L17 Level G1 Levels B1-B3 Tenant workspace Terrace Tenant workspace Terrace Level L18 Levels L19-L20M Level L21"
+    }
+  ],
+  "vector_db_time": 0.19059109687805176
+}
+==================================================
+
+--- Query 13 ---
+Question: How many basement levels are specifically dedicated to car parking?
+Latency: 0.5044 seconds
+Target Keyword: '3' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967336,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "metres (559,891 square feet) 19 office floors 4 amenity floors 3 level basement car parking 4.3 m minimum for all office floors 2,369 square metres (25,500 square feet) 1:700 square feet LEED Platinum View of Max Towers from the DND Flyway"
+    },
+    {
+      "chunk_id": 4294967323,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Esteva Arquitectura, Spain Co-Principal Architect 52,016 square metres (559,891 square feet) 19 offi ce fl oors 4 amenity fl oors 3 level basement car parking 2,369 square metres (25,500 square feet) Floor effi ciency @60% Optimum leasing depth"
+    },
+    {
+      "chunk_id": 4294967335,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "the metro station and minutes away from Delhi\u2019s Central Business District. Super built-up area Number of floors Floor-to-floor height Typical office floor plate size Parking Green rating 52,016 square metres (559,891 square feet) 19 office floors 4"
+    },
+    {
+      "chunk_id": 4294967333,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Landscaped courtyard Entrance lobby The Box Cafe\u0301 Auditorium Landscaped courtyard The Box Parking Level G3 Levels L1-L2 Levels L4-L17 Level G1 Levels B1-B3 Tenant workspace Terrace Tenant workspace Terrace Level L18 Levels L19-L20M Level L21"
+    },
+    {
+      "chunk_id": 4294967317,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Fact sheet Iconic presence Architects Super built-up area Number of fl oors Typical fl oor size Effi ciency Sustainability Parking Earthquake resistance HVAC system design parameters Air treatment Power backup Ceiling height Back-of-house facilities"
+    }
+  ],
+  "vector_db_time": 0.17087888717651367
+}
+==================================================
+
+--- Query 14 ---
+Question: What are the primary health and wellness facilities located on Level G1?
+Latency: 0.4699 seconds
+Target Keyword: 'swimming pool' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967359,
+      "pdf_id": 1,
+      "page_no": 16,
+      "text": "\u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 Elevator lobby Wellness reception Fitness centre Swimming pool Landscaped courtyard Sports zone Chiropractor and daycare 1 2 3 4 5 6 7 Level G1 Elevator lobby Food and drink Terrace The Box 1 2 3 4 Level L2 Elevator lobby"
+    },
+    {
+      "chunk_id": 4294967308,
+      "pdf_id": 1,
+      "page_no": 3,
+      "text": "and competition to promote wellbeing. \u2013 sensible nutrition and facilities that promote physical and mental wellness. \u2013 art and technological installations that provoke and inspire. 6"
+    },
+    {
+      "chunk_id": 4294967332,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "building 75,000 litre domestic raw water tank at level G1 30,000 litre fl ushing water tank at level G1 Zoning Tenant workspace Fitness centre Swimming pool Sports zone Chiropractor and daycare Landscaped courtyard Entrance lobby The Box Cafe\u0301"
+    },
+    {
+      "chunk_id": 4294967372,
+      "pdf_id": 1,
+      "page_no": 19,
+      "text": "Wellness A work environment that is good for people is great for business."
+    },
+    {
+      "chunk_id": 4294967406,
+      "pdf_id": 1,
+      "page_no": 31,
+      "text": "75,000 litre domestic raw water tank at level G1 30,000 litre flushing water tank at level G1 Fire Protection Fire-fighting includes both a hydrant system and an automatic sprinkler system, in conformance with the National Building Code Smoke"
+    }
+  ],
+  "vector_db_time": 0.16277480125427246
+}
+==================================================
+
+--- Query 15 ---
+Question: What is the total installed capacity of the chiller system in tons of refrigeration (TR)?
+Latency: 0.6992 seconds
+Target Keyword: '1200' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967320,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "ce spaces 6 air handling units on each fl oor Treated fresh air provided to AHU Chiller system comprised of water-cooled chilling unit, with total installed capacity of 1200 TR 100% power backup 4.3 m (fl oor-to-fl oor) Provision for raised fl"
+    },
+    {
+      "chunk_id": 4294967352,
+      "pdf_id": 1,
+      "page_no": 12,
+      "text": "metro station and bicycle storage Lower operating cost of equipment such as HVAC and lighting Chiller system delivers 6.2 co-efficient of performance (higher cooling per unit of energy) Waste disposal Green transport friendly Operations efficiency"
+    },
+    {
+      "chunk_id": 4294967318,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "backup Ceiling height Back-of-house facilities 1:700 square feet Designed for Seismic Zone-V 23 \u030aC dry-bulb temperature \u00b11 \u030aC in offi ces 30-60% relative humidity Chiller system delivering 6.2 co-effi cient of performance (higher cooling per unit of"
+    },
+    {
+      "chunk_id": 4294967331,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Three 1,010 kVA generators to meet base building requirements, with day tank capacity of 990 litres each 35,000 litre overhead water tank at roof of building 20,000 litre fi re reserve tank at roof of building 75,000 litre domestic raw water tank at"
+    },
+    {
+      "chunk_id": 4294967319,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "cient of performance (higher cooling per unit of energy) Latest 3-tier treatment clean air technology on par with global standards CO2 sensors used to vary amount of ventilation air delivered to offi ce spaces 6 air handling units on each fl oor"
+    }
+  ],
+  "vector_db_time": 0.1845543384552002
+}
+==================================================
+
+--- Query 16 ---
+Question: How many amenity floors are included in the overall layout?
+Latency: 0.4490 seconds
+Target Keyword: '4' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967360,
+      "pdf_id": 1,
+      "page_no": 16,
+      "text": "Terrace The Box 1 2 3 4 Level L2 Elevator lobby Administration 1 2 Level G1 Mezzanine 1 2 3 4 5 6 7 8 9 10 2 2 2 2 1 1 1 1 2 5 6 4 4 4 3 3 3 6 7 2 3 3 7 8 9 9 9 5 4 9 10 Wind lobby Entrance lobby Reception Cafe\u0301 Elevator lobby Landscaped courtyard"
+    },
+    {
+      "chunk_id": 4294967336,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "metres (559,891 square feet) 19 office floors 4 amenity floors 3 level basement car parking 4.3 m minimum for all office floors 2,369 square metres (25,500 square feet) 1:700 square feet LEED Platinum View of Max Towers from the DND Flyway"
+    },
+    {
+      "chunk_id": 4294967333,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Landscaped courtyard Entrance lobby The Box Cafe\u0301 Auditorium Landscaped courtyard The Box Parking Level G3 Levels L1-L2 Levels L4-L17 Level G1 Levels B1-B3 Tenant workspace Terrace Tenant workspace Terrace Level L18 Levels L19-L20M Level L21"
+    },
+    {
+      "chunk_id": 4294967324,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Floor effi ciency @60% Optimum leasing depth allows employees even in the centre of the building to enjoy natural light and have a view of the outside Greater versatility in fl oor plan layouts LEED Platinum Fac\u0327ade features Common amenities"
+    },
+    {
+      "chunk_id": 4294967363,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "to the outside environment, the average ceiling height on our tenant floor plates is 4.3 metres. Combined with optimum column spacing for efficient floor planning, raised flooring and a 10.5 meter planning grid, our spaces are agile, empowering you"
+    }
+  ],
+  "vector_db_time": 0.17261123657226562
+}
+==================================================
+
+--- Query 17 ---
+Question: What is the floor efficiency percentage of the workspaces?
+Latency: 0.4562 seconds
+Target Keyword: '60%' | Found at Rank: 2
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967362,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "Tenant Floors Max Towers provides you with a state-of-the-art blank slate workspace that you can fully customise to suit your needs. Designed such that 90% of regular occupied space gets direct line-of-sight to the outside environment, the average"
+    },
+    {
+      "chunk_id": 4294967324,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "Floor effi ciency @60% Optimum leasing depth allows employees even in the centre of the building to enjoy natural light and have a view of the outside Greater versatility in fl oor plan layouts LEED Platinum Fac\u0327ade features Common amenities"
+    },
+    {
+      "chunk_id": 4294967336,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "metres (559,891 square feet) 19 office floors 4 amenity floors 3 level basement car parking 4.3 m minimum for all office floors 2,369 square metres (25,500 square feet) 1:700 square feet LEED Platinum View of Max Towers from the DND Flyway"
+    },
+    {
+      "chunk_id": 4294967300,
+      "pdf_id": 1,
+      "page_no": 2,
+      "text": "to fulfil the need for shared, communal and collaborative spaces. The importance of amenities and the role they play in designing employee experiences is growing, as 24\u00d77 connectivity results in shrinking employee leisure time. Static workspaces act"
+    },
+    {
+      "chunk_id": 4294967363,
+      "pdf_id": 1,
+      "page_no": 17,
+      "text": "to the outside environment, the average ceiling height on our tenant floor plates is 4.3 metres. Combined with optimum column spacing for efficient floor planning, raised flooring and a 10.5 meter planning grid, our spaces are agile, empowering you"
+    }
+  ],
+  "vector_db_time": 0.1632399559020996
+}
+==================================================
+
+--- Query 18 ---
+Question: What was the previous name of the ownership company, Max Towers Pvt. Ltd.?
+Latency: 0.5044 seconds
+Target Keyword: 'wise zone' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967432,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "UPRERAPRJ12475 71 70 Max Towers Pvt. Ltd.(previously known as Wise Zone Builders Pvt. Ltd.),having its Registered office Address at : Max Towers, L-12, C- 001/A/1, Sector- 16B NOIDA UP 201301, CIN : U70109UP2016PTC087374."
+    },
+    {
+      "chunk_id": 4294967349,
+      "pdf_id": 1,
+      "page_no": 12,
+      "text": "Max Towers is LEED Platinum Certified. Max Towers is a thought leader in sustainability and aims to minimise its ecological footprint. To do so is important to us because we feel a certain responsibility towards our planet, and we invite you to share"
+    },
+    {
+      "chunk_id": 4294967431,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "website of UPRERA www.up-rera.in. OWNERSHIP We would love to see you soon. For a visit to our experience centre and the site, contact us at +91- 95553 95222 info@maxestates.in www.maxtowers.com RERA registration: UPRERAPRJ12475 71 70 Max Towers Pvt."
+    },
+    {
+      "chunk_id": 4294967302,
+      "pdf_id": 1,
+      "page_no": 2,
+      "text": "company culture through shared experiences. Our intention with Max Towers is to blend thoughtful design and superior hospitality to create an environment, which integrates work and life, nurturing a more productive, healthier and happier community."
+    },
+    {
+      "chunk_id": 4294967396,
+      "pdf_id": 1,
+      "page_no": 30,
+      "text": "concerns Max Towers performs for its residents to help them work better. The Max Group has a history of superior hospitality. A dedicated team of experts from Max Estates will ensure all operational activities perform for our occupants at Max"
+    }
+  ],
+  "vector_db_time": 0.17916226387023926
+}
+==================================================
+
+--- Query 19 ---
+Question: What specific type of glass configuration is utilized to reduce energy consumption?
+Latency: 0.4466 seconds
+Target Keyword: 'low-e' | Found at Rank: 1
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967339,
+      "pdf_id": 1,
+      "page_no": 8,
+      "text": "light, delivering it in peculiar and interesting compositions to every space while shielding them from the heat outside, lowering the overall costs of energy consumption for tenants. Low-E, high performance glass with low reflectance 30 mm thick"
+    },
+    {
+      "chunk_id": 4294967340,
+      "pdf_id": 1,
+      "page_no": 8,
+      "text": "glass with low reflectance 30 mm thick insulated glass units, consisting of \u2013 8 mm thick clear heat-strengthened outer lite \u2013 16 mm air space \u2013 6 mm thick clear fully-tempered inner lite with a Low-E coating Solar heat gain coefficient of 0.25 Cuts"
+    },
+    {
+      "chunk_id": 4294967325,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "LEED Platinum Fac\u0327ade features Common amenities Technology off ering Security Electrical Water Low-E, high performance glass with low refl ectance Fully unitised aluminium curtain wall panels Solar heat gain coeffi cient of 0.25 Glass units are"
+    },
+    {
+      "chunk_id": 4294967326,
+      "pdf_id": 1,
+      "page_no": 6,
+      "text": "heat gain coeffi cient of 0.25 Glass units are insulated glass units, 30 mm thick consisting of an 8 mm thick clear heat- strengthened outer lite, 16 mm air space and a 6 mm thick clear fully-tempered inner lite with a Low-E coating Landscaped"
+    },
+    {
+      "chunk_id": 4294967342,
+      "pdf_id": 1,
+      "page_no": 9,
+      "text": "Materials The materials used to build each space have been carefully chosen to maintain a sense of luxury while maintaining our high sustainability design standards. A veneer ceiling in the entrance lobby exudes a sense of welcome Columns clad in"
+    }
+  ],
+  "vector_db_time": 0.16895389556884766
+}
+==================================================
+
+--- Query 20 ---
+Question: In which specific Noida sector is the Max Towers project located?
+Latency: 0.4633 seconds
+Target Keyword: '16b' | Found at Rank: 2
+Server Response:
+{
+  "answer": ".....",
+  "sources": [
+    {
+      "chunk_id": 4294967410,
+      "pdf_id": 1,
+      "page_no": 32,
+      "text": "Location With the most prime location in Noida, Max Towers is poised to be a new business address in the National Capital Region. Strategically located with direct access and large frontage on the north side of the DND Flyway, and within walking"
+    },
+    {
+      "chunk_id": 4294967334,
+      "pdf_id": 1,
+      "page_no": 7,
+      "text": "Design Nothing about this environment or experience is accidental. At a glance Located in Sector 16B, Noida, Max Towers commands direct access from the DND Flyway. Max Towers is walking distance from the metro station and minutes away from Delhi\u2019s"
+    },
+    {
+      "chunk_id": 4294967432,
+      "pdf_id": 1,
+      "page_no": 35,
+      "text": "UPRERAPRJ12475 71 70 Max Towers Pvt. Ltd.(previously known as Wise Zone Builders Pvt. Ltd.),having its Registered office Address at : Max Towers, L-12, C- 001/A/1, Sector- 16B NOIDA UP 201301, CIN : U70109UP2016PTC087374."
+    },
+    {
+      "chunk_id": 4294967412,
+      "pdf_id": 1,
+      "page_no": 32,
+      "text": "Facing page Aerial view of Max Towers and Delhi One Sector 16 Metro Station 0.7 km 5 min Connaught Place 15 km 25 min IGI Airport 25 km 45 min Saket 18 km 30 min Gurgaon 32 km 55 min Jasola 12 km 20 min Nehru Place 11 km 20 min New Delhi Railway"
+    },
+    {
+      "chunk_id": 4294967355,
+      "pdf_id": 1,
+      "page_no": 14,
+      "text": "Above Entrance to Max Towers Facing page The Box at Max Towers 29 28"
+    }
+  ],
+  "vector_db_time": 0.1730196475982666
+}
+==================================================
+

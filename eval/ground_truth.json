@@ -1,0 +1,761 @@
+[
+  {
+    "query": "For 222 Rajpur, Dehradun, how many total residences are planned and over how many acres is the project spread?",
+    "ground_truth_chunk_ids": [
+      4294967324,
+      4294967330,
+      4294967328
+    ]
+  },
+  {
+    "query": "At 222 Rajpur, what types of residences are available?",
+    "ground_truth_chunk_ids": [
+      4294967328
+    ]
+  },
+  {
+    "query": "Is 222 Rajpur adjacent to any forest area? If yes, which one?",
+    "ground_truth_chunk_ids": [
+      4294967303,
+      4294967330
+    ]
+  },
+  {
+    "query": "What are the views offered from residences at 222 Rajpur, Dehradun?",
+    "ground_truth_chunk_ids": [
+      4294967324,
+      4294967328
+    ]
+  },
+  {
+    "query": "How far is Jolly Grant Airport from 222 Rajpur, Dehradun?",
+    "ground_truth_chunk_ids": [
+      4294967306,
+      4294967305,
+      4294967301
+    ]
+  },
+  {
+    "query": "What is the distance between 222 Rajpur and The Doon School?",
+    "ground_truth_chunk_ids": [
+      4294967300,
+      4294967299
+    ]
+  },
+  {
+    "query": "How long does it take to reach Pacific Mall from 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967309
+    ]
+  },
+  {
+    "query": "Is 222 Rajpur close to Max Super Specialty Hospital?",
+    "ground_truth_chunk_ids": [
+      4294967304
+    ]
+  },
+  {
+    "query": "How many Townhouse units are available at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967324,
+      4294967304
+    ]
+  },
+  {
+    "query": "What is the built-up area and carpet area of a Townhouse at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967346,
+      4294967336
+    ]
+  },
+  {
+    "query": "Does the Townhouse at 222 Rajpur include a sky court?",
+    "ground_truth_chunk_ids": [
+      4294967332
+    ]
+  },
+  {
+    "query": "What is the ceiling height in the Townhouse units at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967339
+    ]
+  },
+  {
+    "query": "How many parking spaces are provided with each Townhouse at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967364,
+      4294967539
+    ]
+  },
+  {
+    "query": "How many Courtyard Villas are available at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967351,
+      4294967349,
+      4294967342,
+      4294967328
+    ]
+  },
+  {
+    "query": "What is the plot size range for Courtyard Villas at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967351,
+      4294967349,
+      4294967362,
+      4294967346,
+      4294967347
+    ]
+  },
+  {
+    "query": "Do the Courtyard Villas at 222 Rajpur include staff accommodation?",
+    "ground_truth_chunk_ids": [
+      4294967342
+    ]
+  },
+  {
+    "query": "What is the terrace size of a Courtyard Villa at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967351,
+      4294967362,
+      4294967339
+    ]
+  },
+  {
+    "query": "How many Forest Villas are available at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967360,
+      4294967361,
+      4294967354,
+      4294967356
+    ]
+  },
+  {
+    "query": "What is the built-up area of a Forest Villa at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967324
+    ]
+  },
+  {
+    "query": "Do Forest Villas at 222 Rajpur have private elevators?",
+    "ground_truth_chunk_ids": [
+      4294967353,
+      4294967354
+    ]
+  },
+  {
+    "query": "What special landscape feature is included in the lower ground floor of Forest Villas at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967354,
+      4294967357
+    ]
+  },
+  {
+    "query": "Does 222 Rajpur provide round-the-clock security?",
+    "ground_truth_chunk_ids": [
+      4294967368
+    ]
+  },
+  {
+    "query": "What wellness or nature-focused amenities are offered at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967324,
+      4294967298,
+      4294967303
+    ]
+  },
+  {
+    "query": "Does 222 Rajpur offer power backup and uninterrupted water supply?",
+    "ground_truth_chunk_ids": [
+      4294967467
+    ]
+  },
+  {
+    "query": "Is there a private orchard at 222 Rajpur?",
+    "ground_truth_chunk_ids": [
+      4294967303
+    ]
+  },
+  {
+    "query": "What is the total super built-up area of Max Towers, Noida?",
+    "ground_truth_chunk_ids": [
+      4294967455
+    ]
+  },
+  {
+    "query": "How many office floors and amenity floors are there in Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967455,
+      4294967465,
+      4294967423
+    ]
+  },
+  {
+    "query": "What is the typical floor plate size at Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967475,
+      4294967539,
+      4294967552
+    ]
+  },
+  {
+    "query": "What is the floor-to-floor height at Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967425
+    ]
+  },
+  {
+    "query": "What green rating has Max Towers achieved?",
+    "ground_truth_chunk_ids": [
+      4294967574,
+      4294967416
+    ]
+  },
+  {
+    "query": "Does Max Towers offer on-site wastewater treatment?",
+    "ground_truth_chunk_ids": [
+      4294967499
+    ]
+  },
+  {
+    "query": "What is the coefficient of performance (COP) of the chiller system at Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967439,
+      4294967469,
+      4294967438,
+      4294967437
+    ]
+  },
+  {
+    "query": "Does Max Towers support electric vehicle parking?",
+    "ground_truth_chunk_ids": [
+      4294967501
+    ]
+  },
+  {
+    "query": "Does Max Towers have a swimming pool?",
+    "ground_truth_chunk_ids": [
+      4294967482
+    ]
+  },
+  {
+    "query": "What kind of fitness facilities are available at Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967494
+    ]
+  },
+  {
+    "query": "Does Max Towers provide daycare facilities?",
+    "ground_truth_chunk_ids": [
+      4294967494
+    ]
+  },
+  {
+    "query": "What air treatment system is used in Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967423
+    ]
+  },
+  {
+    "query": "Where is Max Towers located?",
+    "ground_truth_chunk_ids": [
+      4294967514
+    ]
+  },
+  {
+    "query": "Is Max Towers within walking distance of a metro station?",
+    "ground_truth_chunk_ids": [
+      4294967516,
+      4294967515,
+      4294967453
+    ]
+  },
+  {
+    "query": "Does Max Towers have direct access to the DND Flyway?",
+    "ground_truth_chunk_ids": [
+      4294967515,
+      4294967453,
+      4294967514
+    ]
+  },
+  {
+    "query": "What type of fa\u00e7ade glass is used in Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967561,
+      4294967456,
+      4294967444
+    ]
+  },
+  {
+    "query": "What is the solar heat gain coefficient of the fa\u00e7ade at Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967460,
+      4294967445,
+      4294967444,
+      4294967459
+    ]
+  },
+  {
+    "query": "What percentage of regular occupied space at Max Towers gets line-of-sight to the outside?",
+    "ground_truth_chunk_ids": [
+      4294967474
+    ]
+  },
+  {
+    "query": "What is the total super built-up area of Max House, Okhla?",
+    "ground_truth_chunk_ids": [
+      4294967538,
+      4294967536
+    ]
+  },
+  {
+    "query": "How many tenant floors are there in Max House?",
+    "ground_truth_chunk_ids": [
+      4294967538
+    ]
+  },
+  {
+    "query": "What is the typical floor plate size at Max House?",
+    "ground_truth_chunk_ids": [
+      4294967552,
+      4294967475,
+      4294967539,
+      4294967553
+    ]
+  },
+  {
+    "query": "What is the green rating of Max House?",
+    "ground_truth_chunk_ids": [
+      4294967556
+    ]
+  },
+  {
+    "query": "How far is Max House, Okhla from the Okhla NSIC Metro Station?",
+    "ground_truth_chunk_ids": [
+      4294967545
+    ]
+  },
+  {
+    "query": "How far is Max House from IGI Airport?",
+    "ground_truth_chunk_ids": [
+      4294967516,
+      4294967540
+    ]
+  },
+  {
+    "query": "Is Max House within walking distance of a metro station?",
+    "ground_truth_chunk_ids": [
+      4294967516,
+      4294967563
+    ]
+  },
+  {
+    "query": "What fa\u00e7ade material is used in Max House?",
+    "ground_truth_chunk_ids": [
+      4294967561
+    ]
+  },
+  {
+    "query": "What is the floor-to-ceiling height at Max House?",
+    "ground_truth_chunk_ids": [
+      4294967335,
+      4294967363
+    ]
+  },
+  {
+    "query": "Does Max House use double-glazed windows?",
+    "ground_truth_chunk_ids": [
+      4294967377,
+      4294967551
+    ]
+  },
+  {
+    "query": "What air treatment technology is used in Max House?",
+    "ground_truth_chunk_ids": [
+      4294967561,
+      4294967562,
+      4294967438,
+      4294967486,
+      4294967465
+    ]
+  },
+  {
+    "query": "Is Max House LEED certified?",
+    "ground_truth_chunk_ids": [
+      4294967556,
+      4294967466,
+      4294967557
+    ]
+  },
+  {
+    "query": "Does Max House incorporate biophilic design principles?",
+    "ground_truth_chunk_ids": [
+      4294967553
+    ]
+  },
+  {
+    "query": "Which property among 222 Rajpur, Max Towers, and Max House is purely residential?",
+    "ground_truth_chunk_ids": [
+      4294967328,
+      4294967572,
+      4294967570
+    ]
+  },
+  {
+    "query": "Which property is located in Dehradun: 222 Rajpur or Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967413,
+      4294967297,
+      4294967568,
+      4294967414
+    ]
+  },
+  {
+    "query": "Between Max Towers and Max House, which one has a higher LEED certification?",
+    "ground_truth_chunk_ids": [
+      4294967466,
+      4294967556
+    ]
+  },
+  {
+    "query": "Compare the typical floor plate size of Max Towers and Max House.",
+    "ground_truth_chunk_ids": [
+      4294967552
+    ]
+  },
+  {
+    "query": "Which property has a larger total built-up area: Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967500
+    ]
+  },
+  {
+    "query": "Which property has more tenant floors: Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967538
+    ]
+  },
+  {
+    "query": "Which property is closer to a metro station: Max House or Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967515
+    ]
+  },
+  {
+    "query": "Between 222 Rajpur and Max House, which property is closer to an airport?",
+    "ground_truth_chunk_ids": [
+      4294967536
+    ]
+  },
+  {
+    "query": "Which property offers direct access to the DND Flyway: Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967515
+    ]
+  },
+  {
+    "query": "Which property has LEED Platinum certification: Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967466,
+      4294967556
+    ]
+  },
+  {
+    "query": "Which properties use advanced air treatment systems: Max Towers, Max House, or both?",
+    "ground_truth_chunk_ids": [
+      4294967561,
+      4294967465,
+      4294967562
+    ]
+  },
+  {
+    "query": "Which property offers on-site wastewater treatment: Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967561
+    ]
+  },
+  {
+    "query": "Which property offers a swimming pool: Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967550
+    ]
+  },
+  {
+    "query": "Does 222 Rajpur offer wellness amenities comparable to Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967330
+    ]
+  },
+  {
+    "query": "Which property explicitly mentions decompression spaces: Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967553,
+      4294967483
+    ]
+  },
+  {
+    "query": "I\u2019m looking for a 4-bedroom villa with staff accommodation in 222 Rajpur \u2014 which unit type should I consider?",
+    "ground_truth_chunk_ids": [
+      4294967354,
+      4294967349,
+      4294967360,
+      4294967361
+    ]
+  },
+  {
+    "query": "My company needs a 25,000 sq. ft. office in Noida \u2014 can Max Towers accommodate this on a single floor?",
+    "ground_truth_chunk_ids": [
+      4294967455
+    ]
+  },
+  {
+    "query": "We want an office in Delhi with LEED Gold certification \u2014 is Max House, Okhla suitable?",
+    "ground_truth_chunk_ids": [
+      4294967556
+    ]
+  },
+  {
+    "query": "I want a residential property near the forest with private garden space \u2014 does 222 Rajpur offer this?",
+    "ground_truth_chunk_ids": [
+      4294967324,
+      4294967297,
+      4294967298,
+      4294967303
+    ]
+  },
+  {
+    "query": "We are a wellness-focused company \u2014 between Max Towers and Max House, which better supports employee wellbeing?",
+    "ground_truth_chunk_ids": [
+      4294967435,
+      4294967491,
+      4294967423
+    ]
+  },
+  {
+    "query": "I need an office within walking distance of the metro in Delhi \u2014 is Max House a good option?",
+    "ground_truth_chunk_ids": [
+      4294967515,
+      4294967454
+    ]
+  },
+  {
+    "query": "Which property among 222 Rajpur, Max Towers, and Max House offers private elevators?",
+    "ground_truth_chunk_ids": [
+      4294967536
+    ]
+  },
+  {
+    "query": "If sustainability is a top priority, should I choose Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967466
+    ]
+  },
+  {
+    "query": "I need a property with daycare facilities \u2014 which of these three properties provides that?",
+    "ground_truth_chunk_ids": [
+      4294967451
+    ]
+  },
+  {
+    "query": "Which of the three developments is a housing project rather than an office building?",
+    "ground_truth_chunk_ids": [
+      4294967336
+    ]
+  },
+  {
+    "query": "Identify the project that is not meant for commercial office use.",
+    "ground_truth_chunk_ids": [
+      4294967420
+    ]
+  },
+  {
+    "query": "Among the three properties, which one is exclusively residential in nature?",
+    "ground_truth_chunk_ids": [
+      4294967385,
+      4294967325,
+      4294967333
+    ]
+  },
+  {
+    "query": "Between Max Towers and Max House, which holds the higher level of LEED certification?",
+    "ground_truth_chunk_ids": [
+      4294967466,
+      4294967556
+    ]
+  },
+  {
+    "query": "If sustainability certification level is the deciding factor, which property ranks highest?",
+    "ground_truth_chunk_ids": [
+      4294967556,
+      4294967411,
+      4294967466
+    ]
+  },
+  {
+    "query": "Which development has achieved Platinum-level green certification?",
+    "ground_truth_chunk_ids": [
+      4294967466
+    ]
+  },
+  {
+    "query": "Which office property can employees walk to from a metro station?",
+    "ground_truth_chunk_ids": [
+      4294967454
+    ]
+  },
+  {
+    "query": "Identify the development located within walking distance of a metro stop.",
+    "ground_truth_chunk_ids": [
+      4294967563,
+      4294967453
+    ]
+  },
+  {
+    "query": "Between the Noida and Okhla projects, which one offers closer metro access?",
+    "ground_truth_chunk_ids": [
+      4294967545,
+      4294967453
+    ]
+  },
+  {
+    "query": "Which project is larger in overall constructed area: Max Towers or Max House?",
+    "ground_truth_chunk_ids": [
+      4294967423
+    ]
+  },
+  {
+    "query": "Between the Delhi and Noida office developments, which spans more total square footage?",
+    "ground_truth_chunk_ids": [
+      4294967454
+    ]
+  },
+  {
+    "query": "Which property has the greater overall scale in terms of built-up space?",
+    "ground_truth_chunk_ids": [
+      4294967538
+    ]
+  },
+  {
+    "query": "Which property includes an indoor swimming facility?",
+    "ground_truth_chunk_ids": [
+      4294967480,
+      4294967451,
+      4294967481,
+      4294967446
+    ]
+  },
+  {
+    "query": "Identify the development that provides decompression or relaxation spaces.",
+    "ground_truth_chunk_ids": [
+      4294967483,
+      4294967553,
+      4294967482
+    ]
+  },
+  {
+    "query": "If employee wellness is a priority, which property explicitly supports it through facilities?",
+    "ground_truth_chunk_ids": [
+      4294967428,
+      4294967331,
+      4294967435
+    ]
+  },
+  {
+    "query": "Which property among the three includes a helipad?",
+    "ground_truth_chunk_ids": [
+      4294967376
+    ]
+  },
+  {
+    "query": "Which development offers a golf course within the premises?",
+    "ground_truth_chunk_ids": [
+      4294967320
+    ]
+  },
+  {
+    "query": "Is any of the properties located in Mumbai?",
+    "ground_truth_chunk_ids": [
+      4294967297
+    ]
+  },
+  {
+    "query": "Which project provides co-living or serviced apartments?",
+    "ground_truth_chunk_ids": [
+      4294967491
+    ]
+  },
+  {
+    "query": "What is the rental yield percentage of Max Towers?",
+    "ground_truth_chunk_ids": [
+      4294967574
+    ]
+  },
+  {
+    "query": "Which property has a shopping mall attached to it?",
+    "ground_truth_chunk_ids": [
+      4294967309
+    ]
+  },
+  {
+    "query": "Do any of the properties include a five-star hotel?",
+    "ground_truth_chunk_ids": [
+      4294967347
+    ]
+  },
+  {
+    "query": "Which development offers beachfront views?",
+    "ground_truth_chunk_ids": [
+      4294967349
+    ]
+  },
+  {
+    "query": "Is there a data center facility mentioned in any of the properties?",
+    "ground_truth_chunk_ids": [
+      4294967511
+    ]
+  },
+  {
+    "query": "Which property includes an amusement park or entertainment zone?",
+    "ground_truth_chunk_ids": [
+      4294967319,
+      4294967480,
+      4294967472
+    ]
+  },
+  {
+    "query": "What is the total area?",
+    "ground_truth_chunk_ids": [
+      4294967346
+    ]
+  },
+  {
+    "query": "How many floors does it have?",
+    "ground_truth_chunk_ids": [
+      4294967347,
+      4294967455
+    ]
+  },
+  {
+    "query": "What certification does it hold?",
+    "ground_truth_chunk_ids": [
+      4294967557,
+      4294967577,
+      4294967556,
+      4294967574
+    ]
+  },
+  {
+    "query": "How far is it from the airport?",
+    "ground_truth_chunk_ids": [
+      4294967305,
+      4294967540,
+      4294967543
+    ]
+  },
+  {
+    "query": "Does it offer parking?",
+    "ground_truth_chunk_ids": [
+      4294967502,
+      4294967363
+    ]
+  }
+]

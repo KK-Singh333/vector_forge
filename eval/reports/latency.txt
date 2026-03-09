@@ -1,0 +1,17 @@
+
+
+Embedding Time
+Mean: 0.0141s
+P95 : 0.0088s
+
+Retrieval Time
+Mean: 0.2656s
+P95 : 0.3235s
+
+Re-ranking Time
+Mean: 1.0327s
+P95 : 1.9850s
+
+Generation Time
+Mean: 2.0445s
+P95 : 4.0855s
