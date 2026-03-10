@@ -17,9 +17,6 @@ class ChatService:
         self.max_context_chars = max_context_chars
         self.llm_timeout = llm_timeout
 
-    # ============================================================
-    # 🚀 MAIN ENTRY
-    # ============================================================
 
     async def ask(
         self,
@@ -43,14 +40,14 @@ class ChatService:
                     "needs_clarification": True
                 }
 
-            # 2️⃣ Rewrite for retrieval
+            #  Rewrite for retrieval
             refined_query = await self._rewrite_query(original_query)
 
             if self.logger:
                 self.logger.info(f"[QUERY] Original: {original_query}")
                 self.logger.info(f"[QUERY] Refined: {refined_query}")
 
-            # 3️⃣ Vector retrieval
+            #  Vector retrieval
             chunks, vector_time = await self.knowledge.search(
                 user_id=user_id,
                 query=refined_query,
@@ -63,7 +60,7 @@ class ChatService:
                     "sources": []
                 }
 
-            # 4️⃣ Rerank using LLM
+            #  Rerank using LLM
             time0=time.time()
             reranked_chunks = await self._rerank_chunks(original_query, chunks)
             reranking_time=time.time()-time0
@@ -71,7 +68,7 @@ class ChatService:
             # Keep top-k after reranking
             top_chunks = reranked_chunks[:k]
 
-            # 5️⃣ Build context
+            #  Build context
             context = self._build_context(top_chunks)
 
             if not context.strip():
@@ -80,7 +77,7 @@ class ChatService:
                     "sources": []
                 }
 
-            # 6️⃣ Final answer generation
+            #  Final answer generation
             prompt = self._build_prompt(context, original_query)
             time1=time.time()
             answer = await asyncio.wait_for(
@@ -122,9 +119,7 @@ class ChatService:
                 "sources": []
             }
 
-    # ============================================================
-    # 🔍 VAGUE QUERY DETECTION
-    # ============================================================
+   
 
     async def _detect_and_generate_clarification(self, query: str) -> str | None:
 
@@ -158,9 +153,7 @@ Query:
         except Exception:
             return None
 
-    # ============================================================
-    # 🔄 QUERY REWRITE
-    # ============================================================
+   
 
     async def _rewrite_query(self, query: str) -> str:
 
@@ -189,9 +182,7 @@ Query:
         except Exception:
             return query
 
-    # ============================================================
-    # 🔁 LLM RERANKING
-    # ============================================================
+   
 
     async def _rerank_chunks(
         self,
@@ -272,9 +263,7 @@ Chunks:
 
         return scores
 
-    # ============================================================
-    # 📚 CONTEXT BUILDER
-    # ============================================================
+   
 
     def _build_context(self, chunks: List[Dict]) -> str:
 
@@ -295,9 +284,7 @@ Chunks:
 
         return "\n".join(combined)
 
-    # ============================================================
-    # 🧠 FINAL ANSWER PROMPT
-    # ============================================================
+   
 
     def _build_prompt(self, context: str, question: str) -> str:
 
