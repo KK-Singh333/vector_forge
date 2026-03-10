@@ -31,7 +31,7 @@ class ChatService:
 
             original_query = query.strip()
 
-            # 1️⃣ Clarification detection
+            #  Clarification detection
             clarification = await self._detect_and_generate_clarification(original_query)
             if clarification:
                 return {
