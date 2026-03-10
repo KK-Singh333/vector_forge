@@ -1,7 +1,4 @@
-"""
-Production-Ready Evaluation Framework with Comprehensive Metrics
-Includes: Caching strategy, latency tracking, and mandatory reporting
-"""
+
 
 import json
 import numpy as np
@@ -14,19 +11,12 @@ from collections import OrderedDict, defaultdict
 from llm_server.services.llm_client import LLMClient
 import statistics
 
-# ============================================================================
-# CONFIG
-# ============================================================================
-
 TOP_K = 5
 RECALL_K = 3
 API_URL = "http://127.0.0.1:8068/search"
 GROUND_TRUTH_PATH = r"E:\Agmentis\Scalable_FAISS_Store\eval\ground_truth.json"
 
 
-# ============================================================================
-# CACHING LAYER
-# ============================================================================
 
 class EmbeddingCache:
 
@@ -117,9 +107,6 @@ class QueryResultCache:
         self.misses = 0
 
 
-# ============================================================================
-# LATENCY TRACKER
-# ============================================================================
 
 class LatencyTracker:
 
@@ -174,10 +161,6 @@ class LatencyTracker:
         self.stages.clear()
         self.end_to_end.clear()
 
-
-# ============================================================================
-# RE-RANKER
-# ============================================================================
 
 class ReRanker:
 
@@ -270,9 +253,6 @@ Chunks:
         return reranked, latency_ms
 
 
-# ============================================================================
-# RETRIEVER (FIXED chunk_id TYPE)
-# ============================================================================
 
 class CachedRetriever:
 
@@ -365,9 +345,6 @@ class CachedRetriever:
             return [], latency_breakdown
 
 
-# ============================================================================
-# METRICS
-# ============================================================================
 
 def dcg(relevances):
     return sum(rel / np.log2(i + 2) for i, rel in enumerate(relevances))
@@ -401,9 +378,6 @@ def compute_recall_at_k(retrieved_ids, relevant_ids, k):
     return any(r in relevant_ids for r in retrieved_ids[:k])
 
 
-# ============================================================================
-# EVALUATOR
-# ============================================================================
 
 class ProductionEvaluator:
 
@@ -547,10 +521,6 @@ class ProductionEvaluator:
             }
         }
 
-
-# ============================================================================
-# MAIN
-# ============================================================================
 
 if __name__ == "__main__":
 
